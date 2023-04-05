@@ -1,0 +1,367 @@
+@import url(nullstyle.css);
+@import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+a, a:hover, a:active, a:visited {
+  text-decoration: none;
+  color: #1D2F38;
+}
+
+body {
+  min-width: 1150px;
+  font-family: Raleway, Arial;
+  background-color: #fff;
+  color: #1D2F38;
+}
+body .header {
+  background-color: #fff;
+  box-shadow: 0px 1px 8px rgba(83, 109, 122, 0.29);
+}
+body .header a:hover {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #1D2F38;
+}
+body .header .header__body {
+  display: flex;
+  align-items: center;
+  height: 85px;
+}
+body .header .header__body .header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  width: 100%;
+}
+body .header .header__body .header__nav .list ul {
+  display: flex;
+}
+body .header .header__body .header__nav .list ul li {
+  align-items: center;
+  padding-left: 40px;
+}
+body .header .header__body .header__nav .list ul li img {
+  padding-right: 5px;
+}
+body .header .header__body .header__nav .header__enter .enter__body {
+  display: flex;
+  align-items: center;
+}
+body .header .header__body .header__nav .header__enter .enter__body .enter__text {
+  padding-left: 6px;
+}
+body .main {
+  background-color: #E3EBF1;
+  border-radius: 10px;
+  height: 486px;
+  width: 1150px;
+}
+body .main .main__body {
+  display: flex;
+  margin-top: 60px;
+}
+body .main .main__body .main__column {
+  padding: 50px 0 50px 50px;
+}
+body .main .main__body .main__column .main__info .info__pretitle {
+  padding-bottom: 8px;
+  font-size: 18px;
+  color: #17A550;
+}
+body .main .main__body .main__column .main__info .info__title {
+  color: #1D2F38;
+  font-family: "Bitter";
+  font-size: 47px;
+  padding-bottom: 22px;
+}
+body .main .main__body .main__column .main__info .info__text {
+  color: #333333;
+  width: 474px;
+  font-size: 18px;
+  padding-bottom: 25px;
+}
+body .main .main__body .main__column .main__info .info__text span {
+  color: black;
+  font-weight: 700;
+}
+body .main .main__body .main__column .main__info .info__button {
+  display: inline-block;
+  padding: 15px;
+  background-color: #17A550;
+  border-radius: 5px;
+}
+body .main .main__body .main__column .main__info .info__button a {
+  color: #FFFFFF;
+  font-size: 15px;
+}
+body .blog .blog__body .blog__title {
+  font-family: "Bitter";
+  font-size: 38px;
+  padding: 77px 0 33px 0;
+}
+body .blog .blog__body .blog__main {
+  display: flex;
+}
+body .blog .blog__body .blog__main .main__column .main__title {
+  font-family: "Bitter";
+  font-size: 30px;
+  padding: 9px 0 13px 0px;
+}
+body .blog .blog__body .blog__main .main__column .main__text {
+  font-size: 15px;
+  width: 546px;
+}
+body .blog .blog__body .blog__main .main__column .blog__item {
+  display: flex;
+  align-items: center;
+  padding: 0 0 20px 40px;
+}
+body .blog .blog__body .blog__main .main__column .blog__item .blog__theme {
+  font-size: 18px;
+  padding: 0 0 0 15px;
+}
+body .blog .blog__body .blog__view {
+  background-image: url(../../img/icons/play.svg);
+  background-repeat: no-repeat;
+  margin-top: 22px;
+  padding-left: 25px;
+  background-position: left;
+  font-size: 16px;
+}
+body .extra {
+  width: 1150px;
+  height: 112px;
+  background-image: url(../../img/background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 100px;
+}
+body .extra .extra__body {
+  height: 112px;
+  width: 1050px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+body .extra .extra__body .extra__main {
+  display: flex;
+  align-items: center;
+}
+body .extra .extra__body .extra__main .extra__text {
+  font-family: "Bitter";
+  font-size: 28px;
+  padding-left: 12px;
+}
+body .extra .extra__body .extra__button {
+  text-align: center;
+  display: inline-block;
+  line-height: 50px;
+  height: 52px;
+  width: 111px;
+  background: #17A550;
+  border-radius: 5px;
+}
+body .extra .extra__body .extra__button a {
+  color: #fff;
+}
+body .products .pr__body .pr__title {
+  font-family: "Bitter";
+  font-size: 38px;
+  padding: 97px 0 30px 0;
+}
+body .products .pr__body .pr__row {
+  display: flex;
+  justify-content: space-between;
+}
+body .products .pr__body .pr__row .pr__column {
+  width: 357px;
+}
+body .products .pr__body .pr__row .pr__column .pr__block {
+  background-color: rgba(229, 229, 229, 0.4);
+  border-radius: 10px;
+}
+body .products .pr__body .pr__row .pr__column .pr__block .block__image {
+  position: relative;
+}
+body .products .pr__body .pr__row .pr__column .pr__block .block__image .image__button {
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 57px;
+  height: 30px;
+  text-align: center;
+  line-height: 28px;
+  font-size: 12px;
+  background: rgba(29, 47, 56, 0.8);
+  border-radius: 3px;
+}
+body .products .pr__body .pr__row .pr__column .pr__block .block__image .image__button a {
+  color: #fff;
+}
+body .products .pr__body .pr__row .pr__column .pr__block .block__theme {
+  font-family: "Bitter";
+  font-size: 30px;
+  padding: 25px 0 15px 20px;
+}
+body .products .pr__body .pr__row .pr__column .pr__block .block__text {
+  font-size: 15px;
+  max-width: 330px;
+  padding: 0 0 39px 25px;
+}
+body .products .pr__body .blog__view {
+  background-image: url(../../img/icons/play.svg);
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  padding-left: 25px;
+  background-position: left;
+  font-size: 16px;
+}
+body .news {
+  margin: 100px 0;
+  background-image: url(../../img/big_background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+body .news .news__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .news .news__body .news__image {
+  padding: 50px;
+}
+body .news .news__body .news__block .block__imageblock {
+  display: flex;
+  align-items: center;
+}
+body .news .news__body .news__block .block__imageblock .imageblock__image {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 50px;
+}
+body .news .news__body .news__block .block__imageblock .imageblock__image img {
+  padding: 10px 0 0 10px;
+}
+body .news .news__body .news__block .block__imageblock .imageblock__title {
+  font-family: "Bitter";
+  font-size: 30px;
+  padding-left: 8px;
+}
+body .news .news__body .news__block .block__subtitle {
+  font-size: 18px;
+  margin-top: 44px;
+  padding-bottom: 24px;
+}
+body .news .news__body .news__block .type {
+  padding-bottom: 31px;
+}
+body .news .news__body .news__block .type input {
+  height: 50px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid #AABCC5;
+  padding-left: 15px;
+}
+body .news .news__body .news__block .block__linkblock {
+  display: flex;
+  align-items: center;
+}
+body .news .news__body .news__block .block__linkblock .block__button {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  color: #000000;
+  background: #FFC728;
+  width: 82px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+body .news .news__body .news__block .block__linkblock .block__link {
+  font-size: 12px;
+  color: #536D7A;
+  padding-left: 10px;
+}
+body .footer {
+  background-color: #F7F9FA;
+}
+body .footer .footer__body {
+  display: flex;
+  justify-content: space-between;
+  padding: 59px 0 78px 0;
+  border-bottom: 1px solid #AABCC5;
+}
+body .footer .footer__body .footer__column .column__text {
+  padding-top: 20px;
+  font-size: 16px;
+  width: 306px;
+}
+body .footer .footer__body .footer__column .column__text span {
+  color: black;
+  font-weight: 700;
+}
+body .footer .footer__body .footer__column .column__title {
+  font-size: 30px;
+  color: #333;
+  font-family: "Bitter";
+}
+body .footer .footer__body .footer__column .column__item {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+body .footer .footer__body .footer__column .column__item a {
+  padding-left: 9px;
+  width: 191px;
+}
+body .footer .footer__body .footer__column .footer_last {
+  border-bottom: 1px solid #536D7A;
+}
+body .footer .footer__body .footer__column .footer_last .footer__title {
+  font-family: "Bitter";
+  font-size: 30px;
+  color: #333;
+}
+body .footer .footer__body .footer__column .footer_last input {
+  border: 1px solid #AABCC5;
+  border-radius: 5px;
+  width: 274px;
+  height: 48px;
+  margin: 13px 0 20px 0;
+}
+body .footer .footer__body .footer__column .footer_last .list ul {
+  padding-bottom: 26px;
+}
+body .footer .footer__body .footer__column .footer_last .list ul li {
+  font-size: 14px;
+  padding-top: 7px;
+}
+body .footer .footer__body .footer__column .footer_last .list ul li:first-child {
+  padding-top: 0px;
+}
+body .footer .footer__body .footer__column .footer__brand {
+  font-size: 16px;
+  padding-top: 20px;
+}
+body .footer .footer__end {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 0 20px 0;
+}
+body .footer .footer__end .end__list ul {
+  display: flex;
+}
+body .footer .footer__end .end__list ul a {
+  font-size: 12px;
+  padding-left: 15px;
+}
+body .footer .footer__end .end__aut .aut1 {
+  font-size: 12px;
+}
