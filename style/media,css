@@ -1,0 +1,259 @@
+/* Large desktops and laptops */
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 992px;
+  }
+  body .main {
+    width: 992px;
+  }
+  body .main .main__body .main__column .main__info .info__text {
+    width: 300px;
+  }
+  body .extra {
+    width: 992px;
+  }
+  body .extra .extra__body {
+    width: 992px;
+    justify-content: space-around;
+  }
+  body .products .pr__body .pr__row .pr__column {
+    width: 300px;
+  }
+  body .products .pr__body .pr__row .pr__column .pr__block {
+    height: 352px;
+  }
+  #lol {
+    padding: 25px 0 39px 25px;
+  }
+  body .products .pr__body .pr__row .pr__column .pr__block .block__image img {
+    width: 100%;
+  }
+  body .main .main__body .main__column .main__info .info__title {
+    font-size: 43px;
+  }
+  body .blog .blog__body .blog__title {
+    font-size: 34px;
+    padding: 55px 0 22px 0;
+  }
+  body .extra {
+    margin-top: 70px;
+  }
+  body .products .pr__body .pr__title {
+    font-size: 34px;
+    padding: 55px 0 22px 0;
+  }
+  body .news {
+    margin: 50px 0;
+  }
+  body .news .news__body .news__block .type input {
+    width: 350px;
+  }
+  body .footer .footer__body {
+    padding: 49px 0 67px 0;
+  }
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 768px;
+  }
+  body {
+    min-width: 991px;
+  }
+  body .main {
+    width: 768px;
+    height: 300px;
+  }
+  body .header .header__body .header__nav .list ul li img {
+    display: none;
+  }
+  body .blog .blog__body .blog__title {
+    font-size: 30px;
+    padding: 40px 0 28px 0;
+  }
+  body .main .main__body .main__column .main__info .info__title {
+    font-size: 30px;
+    padding-bottom: 12px;
+  }
+  body .main .main__body .main__column .main__info .info__text {
+    width: 300px;
+  }
+  body .extra {
+    width: 768px;
+    margin-top: 70px;
+  }
+  body .extra .extra__body {
+    width: 768px;
+    justify-content: space-around;
+  }
+  body .extra .extra__body .extra__main .extra__text {
+    font-size: 20px;
+  }
+  body .blog .blog__body .blog__main {
+    justify-content: center;
+  }
+  body .blog .blog__body .blog__main .main__column .main__title {
+    padding: 20px 0 20px 0;
+  }
+  body .blog .blog__body .blog__main .main__column .main__text {
+    padding: 0 0 30px 0;
+  }
+  body .main .main__body {
+    padding-top: 10px;
+  }
+  body .main .main__body .main__column img {
+    width: 100%;
+  }
+  body .main .main__body .main__column {
+    padding: 10px 0 10px 10px;
+  }
+  .blog__body {
+    text-align: center;
+  }
+  .blog__main {
+    flex-wrap: wrap;
+  }
+  body .products .pr__body .pr__title {
+    font-size: 30px;
+    padding: 50px 0 0 0;
+  }
+  body .products .pr__body .pr__row {
+    flex-wrap: wrap;
+  }
+  body .products .pr__body .pr__row .pr__column .pr__block {
+    margin: 30px 0 0 0;
+  }
+  body .news {
+    margin: 50px 0;
+  }
+  body .news .news__body .news__image img {
+    width: 250px;
+  }
+  body .news .news__body .news__block .block__subtitle {
+    font-size: 16px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+  body .news .news__body .news__block .type input {
+    width: 400px;
+  }
+  body .footer .footer__body .footer__column .footer_last input {
+    width: 160px;
+  }
+  body .footer .footer__body {
+    padding: 40px 0 60px 0;
+  }
+  body .footer .footer__body .footer__column .column__title {
+    font-size: 25px;
+  }
+  body .footer .footer__body .footer__column .footer_last .footer__title {
+    font-size: 25px;
+  }
+  body .footer .footer__body .footer__column .column__text {
+    width: 240px;
+  }
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .container {
+    width: 768px;
+  }
+  body {
+    min-width: 991px;
+  }
+  body .main {
+    width: 768px;
+    height: 300px;
+  }
+  body .header .header__body .header__nav .list ul li img {
+    display: none;
+  }
+  body .blog .blog__body .blog__title {
+    font-size: 30px;
+    padding: 40px 0 28px 0;
+  }
+  body .main .main__body .main__column .main__info .info__title {
+    font-size: 30px;
+    padding-bottom: 12px;
+  }
+  body .main .main__body .main__column .main__info .info__text {
+    width: 300px;
+  }
+  body .extra {
+    width: 768px;
+    margin-top: 70px;
+  }
+  body .extra .extra__body {
+    width: 768px;
+    justify-content: space-around;
+  }
+  body .extra .extra__body .extra__main .extra__text {
+    font-size: 20px;
+  }
+  body .blog .blog__body .blog__main {
+    justify-content: center;
+  }
+  body .blog .blog__body .blog__main .main__column .main__title {
+    padding: 20px 0 20px 0;
+  }
+  body .blog .blog__body .blog__main .main__column .main__text {
+    padding: 0 0 30px 0;
+  }
+  body .main .main__body {
+    padding-top: 10px;
+  }
+  body .main .main__body .main__column img {
+    width: 100%;
+  }
+  body .main .main__body .main__column {
+    padding: 10px 0 10px 10px;
+  }
+  .blog__body {
+    text-align: center;
+  }
+  .blog__main {
+    flex-wrap: wrap;
+  }
+  body .products .pr__body .pr__title {
+    font-size: 30px;
+    padding: 50px 0 0 0;
+  }
+  body .products .pr__body .pr__row {
+    flex-wrap: wrap;
+  }
+  body .products .pr__body .pr__row .pr__column .pr__block {
+    margin: 30px 0 0 0;
+  }
+  body .news {
+    margin: 50px 0;
+  }
+  body .news .news__body .news__image img {
+    width: 250px;
+  }
+  body .news .news__body .news__block .block__subtitle {
+    font-size: 16px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+  body .news .news__body .news__block .type input {
+    width: 400px;
+  }
+  body .footer .footer__body .footer__column .footer_last input {
+    width: 160px;
+  }
+  body .footer .footer__body {
+    padding: 40px 0 60px 0;
+  }
+  body .footer .footer__body .footer__column .column__title {
+    font-size: 25px;
+  }
+  body .footer .footer__body .footer__column .footer_last .footer__title {
+    font-size: 25px;
+  }
+  body .footer .footer__body .footer__column .column__text {
+    width: 240px;
+  }
+}
+/* Portrait phones and smaller */
+/* Iphone 5 */
